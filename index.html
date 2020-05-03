@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d9b13dc1dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+
+    <title>Chats | Slack Clone</title>
+  </head>
+  <body>
+    <div class="header__wrapper-dm">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">0:03</span>
+          <i class="fas fa-location-arrow"></i>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-half"></i>
+        </div>
+      </div>
+      <!--  -->
+      <!-- HEADER START -->
+      <!--  -->
+      <header class="header">
+        <div class="header__header-column">
+          <span class="header__header-icon">
+            <a href="directmessage.html"><i class="fas fa-bars"></i></a>
+          </span>
+          <span class="header__header-title">
+            UsefuLake
+          </span>
+          <span class="header__header-icon">
+            <i class="fas fa-circle-notch"></i>
+          </span>
+        </div>
+        <div class="header__header-column">
+          <span class="header__header-icon">
+            <a href="search.html"><i class="fas fa-search"></i></a>
+          </span>
+          <span class="header__header-icon">
+            <a href="ellipsis.html"><i class="fas fa-ellipsis-v"></i></a>
+          </span>
+        </div>
+      </header>
+    </div>
+    <!--  -->
+    <!-- HEADER END -->
+    <!--  -->
+    <!--  -->
+
+    <main class="chat-screen">
+      <!-- PROFILE START -->
+      <!--  -->
+      <div class="profile">
+        <div class="profile__profile-column">
+          <span class="profile__profile-img">
+            <img src="img/Yellow.jpg" alt="" />
+          </span>
+        </div>
+        <div class="profile__profile-column">
+          <span class="profile__profile-name">UsefuLake</span>
+        </div>
+        <div class="profile__profile-column">
+          <span class="profile__profile-description"
+            >This is your space. Draft meassages, list your to-dos, or keep
+            links and files handy. You can also talk to yourself here, but
+            please bear in mind you'll have to supply both sides of the
+            conversation.</span
+          >
+        </div>
+      </div>
+      <!--  -->
+      <!-- PROFILE END -->
+      <!--  -->
+      <ul class="chat__messages">
+        <div class="message_day">
+          <div class="message__daystamp">
+            Apr 23rd
+          </div>
+          <li class="incoming-message message">
+            <div class="message__img">
+              <img src="img/Yellow.jpg" alt="" />
+            </div>
+            <div class="message__content">
+              <span class="message__author"
+                >UsefuLake
+                <i class="message__stamp">11:05 PM</i>
+              </span>
+              <span class="message__bubble">메모</span>
+            </div>
+          </li>
+        </div>
+
+        <div class="message_day">
+          <div class="message__daystamp">
+            Today
+          </div>
+          <li class="incoming-message message">
+            <div class="message__img">
+              <img src="img/Yellow.jpg" alt="" / id="test">
+            </div>
+            <div class="message__content">
+              <span class="message__author"
+                >UsefuLake
+                <i class="message__stamp">12:20 AM</i>
+              </span>
+              <span class="message__bubble"
+                >내부에 icon을 쓸 때는, 간격을 둔 상태에서 icon을 컨트롤하려고
+                하는 것임.</span
+              >
+              <span class="message__bubble">시간변경</span>
+              <span class="message__bubble">hi hello</span>
+              <span class="message__bubble">시간되는대로 알려주세요</span>
+            </div>
+          </li>
+        </div>
+      </ul>
+      <div class="chat__input">
+        <input type="text" placeholder="Jot Something Down" />
+        <i class="fas fa-expand-alt"></i>
+      </div>
+      <nav class="navigation-bar">
+        <div class="nav__column">
+          <span class="nav__icon"><i class="fas fa-at"></i></span>
+          <span class="nav__icon"><i class="fas fa-font"></i></span>
+        </div>
+        <div class="nav__column">
+          <span class="nav__icon"><i class="fas fa-paperclip"></i></span>
+          <span class="nav__icon"><i class="fas fa-images"></i></span>
+          <span class="nav__icon"><i class="fas fa-paper-plane"></i></span>
+        </div>
+      </nav>
+    </main>
+  </body>
+</html>

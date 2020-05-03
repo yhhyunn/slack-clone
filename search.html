@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d9b13dc1dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Search | Slack Clone</title>
+  </head>
+  <body>
+    <div class="header__wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">0:03</span>
+          <i class="fas fa-location-arrow"></i>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-half"></i>
+        </div>
+      </div>
+      <!-- Header Start -->
+      <header class="search-header">
+        <div class="search-header__column-search">
+          <span class="header__header-title">
+            <input type="text" placeholder="Search" />
+          </span>
+          <span class="header__header-cancel">
+            <a href="index.html">Cancel</a>
+          </span>
+        </div>
+        <div class="search-header__column-list">
+          <div class="header__header-list">
+            Messages
+          </div>
+          <div class="header__header-list">
+            Files
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- Header End -->
+    <main class="search">
+      <div class="search__header">
+        <span class="search__title">Search modifiers</span>
+      </div>
+      <ul class="search__search-list">
+        <li class="search__search-list-item">
+          <div class="search__name-title">
+            <span class="search__icon">
+              <i class="far fa-plus-square"></i>
+            </span>
+            <span class="search__name-text">
+              from:me
+            </span>
+          </div>
+          <div class="search__name-description">
+            <span class="search__description">
+              My messages / files
+            </span>
+          </div>
+        </li>
+        <li class="search__search-list-item">
+          <div class="search__name-title">
+            <span class="search__icon">
+              <i class="far fa-plus-square"></i>
+            </span>
+            <span class="search__name-text">
+              has:star
+            </span>
+          </div>
+          <div class="search__name-description">
+            <span class="search__description">
+              Starred items
+            </span>
+          </div>
+        </li>
+        <li class="search__search-list-item">
+          <div class="search__name-title">
+            <span class="search__icon">
+              <i class="far fa-plus-square"></i>
+            </span>
+            <span class="search__name-text">
+              after:2020-03-31
+            </span>
+          </div>
+          <div class="search__name-description">
+            <span class="search__description">
+              Last 30 Days
+            </span>
+          </div>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>

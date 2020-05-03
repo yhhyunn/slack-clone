@@ -1,0 +1,107 @@
+.chat-screen {
+  padding-top: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 12px;
+}
+
+.profile__profile-column {
+  margin-bottom: 16px;
+}
+
+.profile__profile-column:nth-child(1) {
+  margin-bottom: 8px;
+}
+.profile__profile-column .profile__profile-name {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.chat-screen img {
+  width: 36px;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+}
+
+.chat__messages .message__daystamp {
+  border-bottom: #3c4146 solid 1px;
+  /* padding: 0px 10px 8px 10px; */
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+
+.message_day {
+  padding: 0px 12px;
+}
+
+.message__content {
+  padding: 0px 0px 0px 8px;
+}
+
+.message__content .message__bubble {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.message__content .message__author {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.message__content .message__stamp {
+  font-size: 12px;
+  font-weight: 500;
+  color: #3c4146;
+}
+
+/* nav start */
+.navigation-bar {
+}
+
+.chat__input {
+  border-top: #3c4146 solid 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat__input input {
+  background-color: #1c1e1f;
+  font-size: 16px;
+  border: 0px;
+  width: 95%;
+}
+
+.chat__input input,
+.chat__input i {
+  margin: 12px;
+}
+
+.navigation-bar {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__icon {
+  margin: 16px;
+}
+
+/* nav end */
