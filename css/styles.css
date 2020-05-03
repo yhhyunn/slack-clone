@@ -7,6 +7,11 @@
 @import "directmessage.css";
 @import "search.css";
 @import "ellipsis.css";
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   min-height: 100%;
